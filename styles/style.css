@@ -17,11 +17,6 @@ header {
     background-color: beige;
 }
 
-.optica-logo {
-    width: 100px;
-    /* height: 80px; */
-}
-
 .navbar {
     display: grid;
     grid-template-rows: 100px;
@@ -34,6 +29,15 @@ header {
     justify-content: space-between;
     padding: 16px;
     padding-right: 350px; */
+}
+
+.optica-logo {
+    grid-area: optica-logo;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    /* width: 100px; */
+    /* height: 80px; */
 }
 
 .navbar-ul {
