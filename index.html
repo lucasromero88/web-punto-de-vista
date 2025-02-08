@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
     <title>Punto de Vista</title>
 </head>
 <body>
     
    <!-- Cabecera del sitio -->
    <header>
-
-      <img class="brand-logo" src="./img/logos/logo.png" alt="logo">
-
       <!-- Menu de navegacion principal -->
-      <nav>
+      <nav class="navbar">
+         <img class="optica-logo" src="./assets/logos/logo.png" alt="logo">
          <ul>
-            <li class="nav-li"><a class="nav-link" href="index.html">Inicio</a></li>
-            <li class="nav-li"><a class="nav-link" href="./pages/productos.html">Productos</a></li>
-            <li class="nav-li"><a class="nav-link" href="./pages/servicios.html">Servicios</a></li>
-            <li class="nav-li"><a class="nav-link" href="./pages/sobreNosotros.html">Sobre nosotros</a></li>
-            <li class="nav-li"><a class="nav-link" href="./pages/contactenos.html">Contactenos</a></li>
+            <li><a class="navbar-link" href="index.html">Inicio</a></li>
+            <li><a class="navbar-link" href="./pages/productos.html">Productos</a></li>
+            <li><a class="navbar-link" href="./pages/servicios.html">Servicios</a></li>
+            <li><a class="navbar-link" href="./pages/sobreNosotros.html">Sobre nosotros</a></li>
+            <li><a class="navbar-link" href="./pages/contactenos.html">Contactenos</a></li>
          </ul>
       </nav>
    </header>
@@ -30,21 +31,26 @@
 
       <h1>PUNTO DE VISTA</h1>
      
-      <img class="tamano-img-menu-1" src="./img/fondo-index.png" alt="fondo-index">
+      <div class="img-box">
+         <img src="./assets/img/fondo-index.png" alt="fondo-index">
+      </div>
+      
+      <section class="seccion-1">
+         <h2 class="subtitulo">"Visión perfecta, estilo único"</h2>
+         <p>En Punto de Vista, nos enfocamos en brindarte la mejor experiencia visual y estética. Nuestros anteojos son diseñados con la más alta calidad y estilo, para que puedas ver el mundo con claridad y elegancia.</p>
+      </section>
 
-      <section>
-         <h2></h2>
-         <article>
-            <h2 class="subtitulo">"Visión perfecta, estilo único"</h2>
+      <div class="contenedor">
+         <div class="contenedor-foto">
+            <img src="./assets/img/imagen-rusty.jpg" alt="imagen-rusty">
+         </div>
+         <div class="contenedor-foto">   
+            <img src="./assets/img/imagen-kayak.jpg" alt="imagen-kayak">
+      </div>
 
-            <p class="parrafo">En Punto de Vista, nos enfocamos en brindarte la mejor experiencia visual y estética. Nuestros anteojos son diseñados con la más alta calidad y estilo, para que puedas ver el mundo con claridad y elegancia.</p>
-            
-            <img class="img-central" src="./img/imagen-rusty.jpg" alt="imagen-rusty">
-            <img class="img-central" src="./img/imagen-kayak.jpg" alt="imagen-kayak">
-
-            <h2 class="subtitulo">Calidad profesional, atención personalizada</h2>
-            <p class="parrafo">Somos uno de los pocos profesionales de la zona que realmente entienden la importancia de una atención personalizada y experta. Nuestros ópticos titulados te brindarán asesoramiento y cuidado personalizado para encontrar los anteojos perfectos para ti.</p>           
-         </article>
+      <section class="seccion-2">
+         <h2 class="subtitulo">Calidad profesional, atención personalizada</h2>
+         <p>Somos uno de los pocos profesionales de la zona que realmente entienden la importancia de una atención personalizada y experta. Nuestros ópticos titulados te brindarán asesoramiento y cuidado personalizado para encontrar los anteojos perfectos para ti.</p>           
       </section>
 
    </main>
@@ -52,12 +58,13 @@
    <footer class="footer-style">
 
       <h2>Nuestras redes sociales</h2>
-
-      <a href="https://www.facebook.com"><img src="./img/logos/facebook-logo.png" alt="facebook-logo"></a>
-      <a href="https://www.instagram.com"><img src="./img/logos/instagram-logo.png" alt="instagram-logo"></a>
-      <a href="https://wa.me"><img src="./img/logos/whatsapp-logo.png" alt="whatsapp-logo"></a>
-      <a href="https://x.com"><img src="./img/logos/x-logo.png" alt="x-logo"></a>
-
+      
+      <div class="footer-contenedor">
+         <a href="https://www.facebook.com"><img src="./assets/logos/facebook-logo.png" alt="facebook-logo"></a>
+         <a href="https://www.instagram.com"><img src="./assets/logos/instagram-logo.png" alt="instagram-logo"></a>
+         <a href="https://wa.me"><img src="./assets/logos/whatsapp-logo.png" alt="whatsapp-logo"></a>
+         <a href="https://x.com"><img src="./assets/logos/x-logo.png" alt="x-logo"></a>
+      </div>
       <p>© 2025 Óptica PUNTO DE VISTA. Todos los derechos reservados.</p>
    </footer>
 

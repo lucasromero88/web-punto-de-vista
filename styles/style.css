@@ -5,59 +5,139 @@
 }
 
 /* Google fonts */
-
-/*font-family: "Roboto", serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    /* background-color: #1e191d; */
-    background-color: #f4f4f5;
-    font-family: "Roboto", serif;
+    background-color: #d2cccc;
 }
 
-.brand-logo {
-    width: 150px;
-    height: 80px;
+header {
+    width: 100%;
+    background-color: beige;
 }
+
+.optica-logo {
+    width: 100px;
+    /* height: 80px; */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    padding-right: 350px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+
+}
+
 h1 {
     font-size: 48px;
-    color: #181717;
+    color: #9a1d1d;
     text-transform: uppercase;
     text-align: center;
 }
 
-
-.nav-li {
-    list-style: none;
-
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: #bababa;
+.img-box img {
+    max-width: 100%;
+    height: auto;
 }
 
-.tamano-img-menu-1 {
-    width: 100%;
-    height: 1060px;
-}
-
-.imagen-style {
+/* .imagen-style {
     width: 100%;
     height: 650px;
+} */
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
 }
 
-.subtitulo {
+
+.seccion-1 {
+    display: flex;
+    flex-direction:column;
+    margin: 32px 32px;
+    padding: 20px;
+    /* border: 2px solid black; */
     text-align: center;
-    font-size: 42px;
 }
-.parrafo {
-    width: 50%;
+
+.seccion-1 p {
+    /* width: 50%; */
     text-align: center;
     font-size: 32px;
 }
 
-.img-central {
+.seccion-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 32px;
+    padding: 20px;
+    /* border:  2px solid black; */
+    text-align: center;
+}
+
+.seccion-2 p {
+    text-align: center;
+    font-size: 32px;
+}
+
+.subtitulo {
+    /* text-align: center; */
+    margin-bottom: 20px;
+    color: #1d219a;
+    font-family: "Lexend Giga", serif;
+    font-size: 40px;
+}
+
+.contenedor {
+    display: flex;
+    margin: 32px 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+.contenedor-foto {
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 900px;
+}
+
+.contenedor-foto img {
+    width: 100%;
+    height: 700px;
+}
+
+/* .img-central {
     width: 50%;
     height: 800px;
 }
@@ -67,16 +147,45 @@ h1 {
     height: 600px;
 }
 
-.footer-style{
-
-    text-align: center;
-    color: #181717;
-}
-
-
-.footer-style img {
+.section-informacion {
     width: 32px;
     height: 32px;
+} */
+
+
+.footer-style{
+    width: 100%;
+    padding: 40px 40px;
+    background-color: beige;
+    border-radius: 5px;
+    text-align: center;
+    /* color: #181717; */
 }
 
+.footer-contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
 
+}
+
+.footer-style h2 {
+    color: #000000;
+    margin-bottom: auto;
+    /* width: 10px;
+    height: 10px;
+    padding: 60px;
+    margin-bottom: 500px; */
+    
+}
+
+.footer-style img {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-style p {
+    padding: 0px;
+    margin-top: 100px;
+}

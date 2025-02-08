@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <!-- Cabecera del sitio -->
     <header>
 
-        <img class="brand-logo" src="../img/logos/logo.png" alt="logo">
+        <img class="brand-logo" src="../assets/logos/logo.png" alt="logo">
 
        <!-- Menu de navegacion principal -->
         <nav>
@@ -27,31 +30,50 @@
     <main>
         <h1>CONTACTENOS</h1>
 
-        <img class="imagen-style" src="../img/fondo-contactenos.jpg" alt="fondo-contactenos">
+        <img class="imagen-style" src="../assets/img/fondo-contactenos.jpg" alt="fondo-contactenos">
         
-        <section>
-            <h2>Nuestra Informacion</h2>
+        <h2>Nuestra Informacion</h2>
 
-            <article>
-                <h3 class="subtitulo">Lorem Lorem</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque dolores ex sed numquam quia reprehenderit tempora mollitia maiores earum magnam atque, asperiores cupiditate distinctio sunt ad blanditiis ipsa! Est!</p>
-                <h3 class="subtitulo">Lorem Lorem</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, modi asperiores! Assumenda cumque dolorum expedita illum asperiores tenetur quia sequi fugiat! Aliquid rem nobis consectetur a amet earum voluptate commodi.</p>
-            </article>
+        <section>
+            <img class="section-informacion" src="../assets/logos/telefono.png" alt="telefono">
+            <p>32345678</p>
+            <img class="section-informacion" src="../assets/logos/carta.png" alt="email">
+            <p>puntodevista@gmail.com</p>
+            <img class="section-informacion" src="../assets/logos/ubicacion.png" alt="direccion">
+            <p>Ubicacion 123</p>
+        </section>    
+
+        <!-- Formulario -->
+
+        <form action="/submit" method="post">
+            <label for="">Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="">Email: </label>
+            <input type="email" name="email" id="email">
+
+            <label for="">Telefono: </label>
+            <input type="text" name="telefono" id="telefono">
+
+            <label for="">Mensaje: </label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
 
     </main>
 
-   <footer class="footer-style">
+    <footer class="footer-style">
 
-      <h2>Nuestras redes sociales</h2>
+        <h2>Nuestras redes sociales</h2>
 
-      <a href="https://www.facebook.com"><img src="../img/logos/facebook-logo.png" alt="facebook-logo"></a>
-      <a href="https://www.instagram.com"><img src="../img/logos/instagram-logo.png" alt="instagram-logo"></a>
-      <a href="https://wa.me"><img src="../img/logos/whatsapp-logo.png" alt="whatsapp-logo"></a>
-      <a href="https://x.com"><img src="../img/logos/x-logo.png" alt="x-logo"></a>
+        <a href="https://www.facebook.com"><img src="../assets/logos/facebook-logo.png" alt="facebook-logo"></a>
+        <a href="https://www.instagram.com"><img src="../assets/logos/instagram-logo.png" alt="instagram-logo"></a>
+        <a href="https://wa.me"><img src="../assets/logos/whatsapp-logo.png" alt="whatsapp-logo"></a>
+        <a href="https://x.com"><img src="../assets/logos/x-logo.png" alt="x-logo"></a>
 
-      <p>© 2025 Óptica PUNTO DE VISTA. Todos los derechos reservados.</p>
-   </footer>
+        <p>© 2025 Óptica PUNTO DE VISTA. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
