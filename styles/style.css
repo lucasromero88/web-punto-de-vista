@@ -23,20 +23,34 @@ header {
 }
 
 .navbar {
-    display: flex;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    grid-template-areas: 
+        "optica-logo navbar-ul navbar-ul navbar-ul navbar-ul navbar-ul";
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 16px;
-    padding-right: 350px;
+    padding-right: 350px; */
 }
 
+.navbar-ul {
+    grid-area: navbar-ul;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+/* 
 .navbar ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 16px;
-}
+} */
 
 .navbar ul li {
     list-style: none;
