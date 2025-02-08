@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google fonts */
+
+/*font-family: "Roboto", serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    /* background-color: #1e191d; */
+    background-color: #f4f4f5;
+    font-family: "Roboto", serif;
+}
+
+.brand-logo {
+    width: 150px;
+    height: 80px;
+}
+h1 {
+    font-size: 48px;
+    color: #181717;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.nav-li {
+    list-style: none;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #bababa;
+}
+
+.tamano-img-menu-1 {
+    width: 100%;
+    height: 1060px;
+}
+
+.imagen-style {
+    width: 100%;
+    height: 650px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 42px;
+}
+.parrafo {
+    width: 50%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.img-central {
+    width: 50%;
+    height: 800px;
+}
+
+.img-carrusel {
+    width: 50%;
+    height: 600px;
+}
+
+.footer-style{
+
+    text-align: center;
+    color: #181717;
+}
+
+
+.footer-style img {
+    width: 32px;
+    height: 32px;
+}
+
+
