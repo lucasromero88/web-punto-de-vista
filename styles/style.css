@@ -90,10 +90,14 @@ h1 {
     height: auto;
 }
 
-/* .imagen-style {
+.imagen-style {
     width: 100%;
     height: 650px;
-} */
+}
+
+.carrusel-img {
+    
+}
 
 .container {
     margin: 50px auto;
