@@ -186,13 +186,22 @@ h1 {
 }
 
 .footer-contenedor {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 80px;
 
 }
-*/
+
+.linea-horizontal {
+    width: 65%;
+    height: 2px;
+    background-color: black;
+    margin: 20px auto;
+}
+
 .footer-style h2 {
     color: #000000;
     margin-bottom: auto;
@@ -206,4 +215,12 @@ h1 {
 .footer-style p {
     padding: 30px;
     margin-top: 20px;
+}
+
+@media (max-width: 450px) {
+    .footer-style img {
+        width: 40px;
+        height: 40px;
+    }
+
 }
