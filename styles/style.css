@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: #231e1e;
+    background-color: #2f2424;
     
 }
 
@@ -102,7 +102,7 @@ h1 {
 .container {
     margin: 50px auto;
     padding: 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
 }
 
@@ -148,7 +148,63 @@ h1 {
     width: 100%;
     height: 1200px;
     margin: 0 auto;
-    max-width: 1800px;
+    /* max-width: 1800px; */
+
+}
+
+/* Imagenes superpuestas servicios */
+.container-servicios {
+    /* margin: 0;
+    padding: 0; */
+}
+
+.config-izquierda, .config-derecha{
+    display: flex;
+    /* color: white; */
+    margin-top: 200px;
+    margin-bottom: 200px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.config-izquierda h2, .config-derecha h2 {
+    color: white;
+}
+
+.parrafo-izquierda, .parrafo-derecha {
+    color: white;
+    text-align: center;
+    margin: 100px;
+    
+
+}
+
+.linea-horizontal-izquierda, .linea-horizontal-derecha {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.contenedor-img {
+    padding: 0px;
+}
+.img-derecha {
+    width: 100%;
+    height: 900px;
+    /* position: absolute;
+    bottom: 0;
+    right: 0; */
+}
+
+.img-izquierda {
+    width: 100%;
+    height: 900px;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
 
 }
 
@@ -236,5 +292,25 @@ h1 {
     }
     .footer-contenedor {
         gap: 60px;
+    }
+    .tamaño-img {
+        width: 100%;
+        height: 600px;
+    }
+    .img-box img {
+        width: 100%;
+        height: 450px;
+    }
+    .imagen-style {
+        width: 100%;
+        height: 400px;
+    }
+    .carrusel-img {
+        width: 100%;
+        height: 550px;
+    }
+    .img-derecha, .img-izquierda {
+        width: 100%;
+        height: 500px;
     }
 }
