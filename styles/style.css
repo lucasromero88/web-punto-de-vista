@@ -17,60 +17,10 @@ header {
     background-color: beige;
 }
 
-.navbar {
-    /* display: grid;
-    grid-template-rows: 100px;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 16px;
-    grid-template-areas: 
-        "optica-logo navbar-ul navbar-ul navbar-ul navbar-ul navbar-ul"; */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px;
-    padding-right: 500px; */
-}
-
-.nav-center {
-    /* display: flex;
-    justify-content: center; */
-}
-
 .optica-logo img{
-    /* grid-area: optica-logo;
-    display: flex;
-    flex-direction: row;
-    justify-content:left; */
     width: 100px;
     height: 80px;
 }
-
-/* .navbar-ul {
-    grid-area: navbar-ul;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-} */
-/* 
-.navbar ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-} */
-
-/* .navbar ul li {
-    list-style: none;
-}
-
-.navbar-link {
-    text-decoration: none;
-    color: black;
-    font-size: 24px;
-
-} */
 
 h1 {
     font-size: 48px;
@@ -91,7 +41,6 @@ h1 {
 }
 
 .imagen-style {
-    /* position: absolute; */
     width: 100%;
     height: 650px;
 }
@@ -100,7 +49,6 @@ h1 {
 
     margin: 50px auto;
     padding: 20px;
-    /* border: 2px solid black; */
     text-align: center;
 }
 
@@ -111,12 +59,10 @@ h1 {
     flex-direction:column;
     margin: 250px 150px;
     padding: 20px;
-    /* border: 2px solid black; */
     text-align: center;
 }
 
 .seccion-1 p {
-    /* width: 50%; */
     font-family: "Poiret One", serif;
     color: white;
     text-align: center;
@@ -128,7 +74,6 @@ h1 {
     flex-direction: column;
     margin: 250px 150px;
     padding: 20px;
-    /* border:  2px solid black; */
     text-align: center;
 }
 
@@ -140,11 +85,9 @@ h1 {
 }
 
 .subtitulo {
-    /* text-align: center; */
     margin-bottom: 20px;
     color: white;
     font-family: "Poiret One", serif;
-    /* font-family: "Lexend Giga", serif; */
     font-size: 60px;
 }
 
@@ -152,7 +95,6 @@ h1 {
     width: 100%;
     height: 1400px;
     margin: 0 auto;
-    /* max-width: 1800px; */
 
 }
 
@@ -161,7 +103,6 @@ h1 {
     color: white;
     margin-top: 100px;
     margin-bottom: 100px;
-    
 }
 
 .config-video {
@@ -174,9 +115,6 @@ h1 {
 }
 .parrafo-sobre-nosotros-1 {
     display: flex;
-    /* color: white; */
-    /* margin-top: 200px; */
-    /* margin-bottom: 200px; */
     font-size: 28px;
     flex-direction: column;
     flex-wrap: wrap;
@@ -185,7 +123,6 @@ h1 {
 }
 .contenedor-superposicion {
     position: relative;
-    /* display: inline-block; */
 }
 .contenedor-superposicion h1 {
     position: absolute;
@@ -196,14 +133,8 @@ h1 {
 }
 
 /* Imagenes superpuestas servicios */
-.container-servicios {
-    /* margin: 0;
-    padding: 0; */
-}
-
 .config-izquierda, .config-derecha{
     display: flex;
-    /* color: white; */
     margin-top: 200px;
     margin-bottom: 200px;
     flex-direction: column;
@@ -220,8 +151,6 @@ h1 {
     color: white;
     text-align: center;
     margin: 100px;
-    
-
 }
 
 .linea-horizontal-izquierda, .linea-horizontal-derecha {
@@ -234,21 +163,15 @@ h1 {
 .contenedor-img {
     padding: 0px;
 }
+
 .img-derecha {
     width: 100%;
     height: 900px;
-    /* position: absolute;
-    bottom: 0;
-    right: 0; */
 }
 
 .img-izquierda {
     width: 100%;
     height: 900px;
-    /* position: absolute;
-    bottom: 0;
-    left: 0; */
-
 }
 
 /* Formulario */
@@ -287,7 +210,6 @@ h1 {
     margin-top: 100px;
     margin-bottom: 100px;
     justify-content: center;
-    /* border: 1px solid white; */
 }
 
 .campo-formulario {
@@ -316,43 +238,7 @@ h1 {
 
 }
 
-/* .contenedor {
-    display: flex;
-    margin: 32px 32px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 32px;
-}
-
-.contenedor-foto {
-    padding: 16px;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 900px;
-}
-
-.contenedor-foto img {
-    width: 100%;
-    height: 700px;
-} */
-
-/* .img-central {
-    width: 50%;
-    height: 800px;
-}
-
-.img-carrusel {
-    width: 50%;
-    height: 600px;
-}
-
-.section-informacion {
-    width: 32px;
-    height: 32px;
-} */
-
-
+/* Footer */
 .footer-style{
     width: 100%;
     padding: 40px 40px;
@@ -393,6 +279,7 @@ h1 {
     margin-top: 20px;
 }
 
+/* Responsive Mobile */
 @media (max-width: 450px) {
     header{
         margin-top: 0px;
