@@ -256,7 +256,7 @@ h1 {
     padding: 0px;
     color: white;
 }
-.section-informacion {
+.icono-informacion {
     width: 60px;
     height: 30px;
     color: white;
@@ -413,7 +413,13 @@ h1 {
     }
     .img-derecha, .img-izquierda {
         width: 100%;
-        height: 500px;
+        height: 400px;
+    }
+    .contenedor-tamaño-estructura {
+        margin: 0px;
+    }
+    .config-derecha, .config-izquierda {
+        padding: 0px;
     }
     .config-video {
         width: 100%;
@@ -422,10 +428,10 @@ h1 {
 
     /* Ajustes Contactenos */
     .valores-informacion {
-        width: 150px;
+        width: 100%;
     }
     .formato-img-mapa {
-        width: 340px;
+        width: 100%;
         height: 180px;
         margin-left: auto;
     }
@@ -433,20 +439,44 @@ h1 {
         margin: 50px;
     }
     .section-informacion p{
-        font-size: 10px;
+        font-size: 20px;
+        
     }
     .contenedor-formulario {
         padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .campo-formulario, .campo-textarea {
         font-size: 14px;
+        width: 100%;
         padding: 8px;
     }
     .texto-formulario {
         font-size: 14px;
+        width: 100%;
+        padding: 8px;
     }
     .botom-formulario {
         font-size: 14px;
+        width: 100%;
         padding: 8px;
+    }
+    .contenedor-informacion {
+        width: 400px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .valores-informacion h2 {
+        font-size: 40px;
+    }
+    .icono-informacion {
+        width: 40px;
+        margin-left: 50px;   
+    }
+    .section-informacion {
+        height: 180px;
     }
 }
