@@ -112,7 +112,7 @@ h1 {
 .seccion-1 {
     display: flex;
     flex-direction:column;
-    margin: 32px 32px;
+    margin: 250px 150px;
     padding: 20px;
     /* border: 2px solid black; */
     text-align: center;
@@ -120,6 +120,7 @@ h1 {
 
 .seccion-1 p {
     /* width: 50%; */
+    font-family: "Poiret One", serif;
     color: white;
     text-align: center;
     font-size: 32px;
@@ -128,13 +129,14 @@ h1 {
 .seccion-2 {
     display: flex;
     flex-direction: column;
-    margin: 32px 32px;
+    margin: 250px 150px;
     padding: 20px;
     /* border:  2px solid black; */
     text-align: center;
 }
 
 .seccion-2 p {
+    font-family: "Poiret One", serif;
     color: white;
     text-align: center;
     font-size: 32px;
