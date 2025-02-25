@@ -191,6 +191,9 @@ h1 {
 }
 
 /* Imagenes superpuestas servicios */
+.contenedor-tamaño-estructura {
+    margin: 0px;
+}
 .config-izquierda, .config-derecha{
     display: flex;
     margin-top: 200px;
@@ -234,7 +237,7 @@ h1 {
 
 /* Formulario */
 .contenedor-informacion {
-    margin: 100px 100px;
+    margin: 0px;
 }
 
 .valores-informacion h2 {
