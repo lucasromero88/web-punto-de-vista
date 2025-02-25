@@ -260,7 +260,7 @@ h1 {
 }
 
 .formato-img-mapa {
-    width: 800px;
+    width: 600px;
     height: 600px;
     margin-left: 100px;
 }
@@ -480,5 +480,98 @@ h1 {
     }
     .navbar-icon {
         background-image: url("../assets/img/icono-lista-menu.png");
+    }
+}
+
+@media (min-width: 451px) and (max-width: 1200px) {
+
+    header{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+    h1 {
+        font-size: 28px;
+        color: #f1eff4;
+        /* text-transform: uppercase; */
+        font-family: "Poiret One", serif;
+        /* text-align: center; */
+    }
+    /* index */
+    .seccion-1, .seccion-2 {
+        margin: 160px 50px;
+    }
+    .subtitulo {
+        font-size: 24px;
+        margin: 20px 5px;
+    }
+    .seccion-1 p, .seccion-2 p {
+        font-size: 20px;
+    }
+    .linea-horizontal {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    /* Contactenos */
+    .section-informacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formato-img-mapa {
+        margin-top:  20px;
+        width: 400px;
+        height: 200px;
+        /* align-items: center;
+        width: 500px;
+        height: 300px;
+        margin: auto; */
+    }
+    .icono-informacion {
+        width: 24px; /* Ajusta el tamaño del icono según necesidad */
+        height: auto;
+        margin-right: 10px;
+    }
+    .section-informacion p {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 5px 0;
+    }
+    .contenedor-formulario {
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        justify-content: center;
+    }
+    .campo-formulario, .campo-textarea {
+        font-size: 14px;
+        width: 100%;
+        padding: 8px;
+    }
+    .texto-formulario {
+        font-size: 20px;
+        width: 100%;
+        padding: 8px;
+        font-family: "Poiret One", serif;
+    }
+    .botom-formulario {
+        font-size: 14px;
+        width: 500px;
+        padding: 8px;
+    }
+    .botom-formulario:hover {
+        color: #ffcc00;
+    }
+    /* footer */
+    .footer-style img {
+        width: 50px;
+        height: 50px;
+    }
+    .footer-contenedor {
+        gap: 50px;
     }
 }
