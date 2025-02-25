@@ -17,6 +17,59 @@ header {
     background-color: beige;
 }
 
+/* Navbar */
+.navbar {
+    background-color: #004080;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #716f65;
+}
+
+/* Carrusel de productos */
+.carousel-caption h5 {
+    font-family: "Poiret One", serif;
+    font-size: 70px;
+    color: black;
+}
+
+.carousel-caption p {
+    font-family: "Poiret One", serif;
+    font-size: 25px;
+    color: black;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+    width: 70px;
+    height: 70px;
+}
+
+/* Menu amburguesa */
+.navbar-toggler {
+    border: 1px solid #c26519;
+    border-radius: 5px;
+    background: white;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url("../assets/img/icono-lista-menu.png"); /* Reemplaza con tu imagen */
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
 .optica-logo img{
     width: 100px;
     height: 80px;
@@ -240,7 +293,7 @@ h1 {
 }
 
 .botom-formulario:hover {
-
+    color: #004080;
 }
 
 /* Footer */
@@ -356,7 +409,7 @@ h1 {
         width: 100%;
     }
     .formato-img-mapa {
-        width: 280px;
+        width: 330px;
         height: 160px;
         margin: auto;
     }
@@ -391,6 +444,9 @@ h1 {
         width: 100%;
         padding: 8px;
     }
+    .botom-formulario:hover {
+        color: #ffcc00;
+    }
     .contenedor-informacion {
         width: 400px;
         margin-left: 25px;
@@ -405,5 +461,21 @@ h1 {
     }
     .section-informacion {
         height: 180px;
+    }
+    /* Menu amburguesa */
+    .navbar-collapse {
+        background-color: #004080;
+        padding: 10px;
+    }
+    .navbar-nav .nav-link {
+        text-align:start;
+        padding: 12px;
+        display: block;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #ffcc00;
+    }
+    .navbar-icon {
+        background-image: url("../assets/img/icono-lista-menu.png");
     }
 }
