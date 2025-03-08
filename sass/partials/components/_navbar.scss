@@ -1,26 +1,24 @@
 .navbar {
-    background-color: #004080;
+    background-color: map-get($colors , azul-tipo);
     padding: 10px 20px;
     .optica-logo img {
-        width: 100px;
-        height: 80px;
+        @include medidas(100px, 80px);
     }
     .navbar-togger-icon {
         background-image: url("../assets/img/icono-lista-menu.png");
-        width: 30px;
-        height: 30px0;
+        @include medidas(30px, 30px);
     }
     .navbar-nav {
         .nav-item {
             .nav-link {
-                color: white;
-                font-size: 16px;
+                color: map-get($colors, white-col );
+                font-size: map-get($font-sizes , m );
                 font-weight: bold;
                 padding: 10px 15px;
                 text-transform: uppercase;
                 transition: color 0.3s ease-in-out;
                 &:hover {
-                    color: #716f65;
+                    color: map-get($colors, gris-hover );
                 }
             }
         }

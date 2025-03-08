@@ -1,0 +1,30 @@
+//Footer
+
+.footer-style {
+    @include medidas(100%, none);
+    padding: 40px;
+    background-color: map-get($colors, beige-col );
+    border-radius: 5px;
+    text-align: center;
+    h2 {
+        color: map-get($colors, black-col );
+        margin-bottom: auto;
+    }
+    p {
+        padding: 30px;
+        margin-top: 20px;
+    }
+    img {
+        @include medidas(60px, 60px);
+    }
+}
+
+.footer-contenedor {
+    padding: 50px 0;
+    @include flex(row, center, none);
+    gap: 80px;
+}
+
+.linea {
+    @extend .linea-horizontal;
+}
