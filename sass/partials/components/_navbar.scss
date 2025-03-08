@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #004080;
+    padding: 10px 20px;
+    .optica-logo img {
+        width: 100px;
+        height: 80px;
+    }
+    .navbar-togger-icon {
+        background-image: url("../assets/img/icono-lista-menu.png");
+        width: 30px;
+        height: 30px0;
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: white;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 10px 15px;
+                text-transform: uppercase;
+                transition: color 0.3s ease-in-out;
+                &:hover {
+                    color: #716f65;
+                }
+            }
+        }
+
+    }
+}

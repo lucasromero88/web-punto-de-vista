@@ -1,17 +1,31 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import 'partials/base/reset';
- *   |         ^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   sass\style.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'partials/base/reset';\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\style.scss 1:9  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
 }
+
+.navbar {
+  background-color: #004080;
+  padding: 10px 20px;
+}
+.navbar .optica-logo img {
+  width: 100px;
+  height: 80px;
+}
+.navbar .navbar-togger-icon {
+  background-image: url("../assets/img/icono-lista-menu.png");
+  width: 30px;
+  height: 30px0;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #716f65;
+}
+
+/*# sourceMappingURL=style.css.map */
