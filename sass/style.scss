@@ -1,0 +1,10 @@
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
+
+//UTILITIES
+@import 'partials/utilities/variables';
+@import 'partials/utilities/maps';
+@import 'partials/utilities/mixins';
+
+//COMPONENTES
+@import 'partials/components/navbar';
