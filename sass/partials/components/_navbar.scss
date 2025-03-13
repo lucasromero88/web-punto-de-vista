@@ -11,14 +11,14 @@
     .navbar-nav {
         .nav-item {
             .nav-link {
-                color: map-get($colors, white-col );
-                font-size: map-get($font-sizes , m );
+                color: map-get($colors, white-col);
+                font-size: map-get($font-sizes , m);
                 font-weight: bold;
                 padding: 10px 15px;
                 text-transform: uppercase;
                 transition: color 0.3s ease-in-out;
                 &:hover {
-                    color: map-get($colors, gris-hover );
+                    color: map-get($colors, gris-hover);
                 }
             }
         }

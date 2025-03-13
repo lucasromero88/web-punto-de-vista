@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -56,6 +58,52 @@
   justify-content: center;
   align-items: none;
   gap: 80px;
+}
+
+.imagen-style {
+  width: 100%;
+  height: 650px;
+}
+
+body {
+  background-color: #2f2424;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f1eff4;
+  font-family: "Poiret One", serif;
+}
+
+.seccion-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 250px 150px;
+  padding: 20px;
+  text-align: center;
+}
+.seccion-1 p {
+  font-family: "Poiret One", serif;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.subtitulo {
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Poiret One", serif;
+  font-size: 60px;
+}
+
+.tamaño-img {
+  width: 100%;
+  height: 1300px;
+  margin: 0 auto;
 }
 
 .linea-horizontal, .linea {

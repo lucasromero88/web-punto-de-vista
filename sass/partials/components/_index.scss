@@ -1,0 +1,46 @@
+.imagen-style {
+    @include medidas(100%, 650px);
+}
+
+body {
+    background-color: map-get($colors, "negro-especial");
+}
+
+h1 {
+    font-size: map-get($font-sizes, "xxl");
+    color: map-get($colors, "blanco-especial");
+    font-family: $font-family;
+}
+
+.seccion-1 {
+    // @include flex2(column);
+    display: flex;
+    flex-direction: column;
+    margin: 250px 150px;
+    padding: 20px;
+    text-align: center;
+
+    p {
+        font-family: $font-family;
+        color: map-get($colors, "white-col");
+        text-align: center;
+        font-size: 32px;
+    }
+}
+
+.titulo {
+    text-align: center;
+}
+
+.subtitulo {
+    margin-bottom: 20px;
+    color: map-get($colors, "white-col");
+    font-family: $font-family;
+    font-size: map-get($font-sizes, "especial-1");
+}
+
+.tamaño-img {
+    @include medidas(100%, 1300px);
+    margin: 0 auto;
+}
+

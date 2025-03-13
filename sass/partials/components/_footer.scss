@@ -3,11 +3,11 @@
 .footer-style {
     @include medidas(100%, none);
     padding: 40px;
-    background-color: map-get($colors, beige-col );
+    background-color: map-get($colors, beige-col);
     border-radius: 5px;
     text-align: center;
     h2 {
-        color: map-get($colors, black-col );
+        color: map-get($colors, black-col);
         margin-bottom: auto;
     }
     p {

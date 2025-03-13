@@ -1,11 +1,16 @@
-@mixin flex ($direction, $justify, $align) {
+@mixin flex($direction, $justify, $align) {
     display: flex;
     flex-direction: $direction;
     justify-content: $justify;
     align-items: $align;
 }
 
-@mixin medidas ($ancho, $alto) {
+@mixin flex2($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin medidas($ancho, $alto) {
     width: $ancho;
     height: $alto;
 }
