@@ -184,4 +184,53 @@ body {
   font-size: 32px;
 }
 
+.contenedor-informacion {
+  margin: 100px 100px;
+}
+.contenedor-informacion h1 {
+  color: #f1eff4;
+  font-family: "Poiret One", serif;
+  font-size: 48px;
+}
+.contenedor-informacion .icono-informacion {
+  width: 60px;
+  height: 38px;
+  color: white;
+  margin-right: 10px;
+  float: left;
+}
+.contenedor-informacion p {
+  padding: 0px;
+  color: white;
+}
+.contenedor-informacion .config-mapa {
+  width: 500px;
+  height: 500px;
+}
+
+.contenedor-formulario {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+.contenedor-formulario .texto-formulario {
+  color: white;
+}
+.contenedor-formulario .campo-formulario, .contenedor-formulario .botom-formulario, .contenedor-formulario .campo-textarea {
+  width: 1000px;
+  height: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.contenedor-formulario .botom-formulario {
+  height: 40px;
+}
+.contenedor-formulario .botom-formulario:hover {
+  color: #004080;
+}
+
 /*# sourceMappingURL=style.css.map */

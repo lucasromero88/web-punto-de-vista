@@ -1,0 +1,48 @@
+.contenedor-informacion {
+    margin: 100px 100px;
+    h1 {
+        color: map-get($colors, blanco-especial);
+        font-family: $font-family;
+        font-size: map-get($font-sizes, xxl);
+    }
+    .icono-informacion {
+        @include medidas(60px, 38px);
+        color: map-get($colors, white-col);
+        margin-right: 10px;
+        float: left;
+    }
+    p {
+        padding: 0px;
+        color: map-get($colors, white-col);
+    }
+    .config-mapa{
+        @include medidas(500px, 500px);
+    }
+}
+
+.contenedor-formulario {
+    @include flex(center, center, center);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-bottom: 50px;
+
+    .texto-formulario {
+        color: map-get($colors, white-col);
+    }
+    .campo-formulario {
+        @include medidas(1000px, none);
+        border: 1px solid black;
+        border-radius: 5px;
+
+    }
+    .campo-textarea {
+        @extend .campo-formulario;
+    }
+    .botom-formulario {
+        @extend .campo-formulario;
+        height: 40px;
+        &:hover {
+            color: map-get($colors, azul-tipo);
+        }
+    }
+}
