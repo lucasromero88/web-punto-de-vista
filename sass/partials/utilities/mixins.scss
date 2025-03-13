@@ -14,3 +14,8 @@
     width: $ancho;
     height: $alto;
 }
+
+@mixin medidas-2($margin-top, $margin-bottom) {
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}

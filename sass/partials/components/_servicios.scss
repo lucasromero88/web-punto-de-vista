@@ -1,0 +1,39 @@
+.config-izquierda {
+    @include flex(column, center, center);
+    @include medidas-2(200px, 200px);
+    flex-wrap: wrap;
+    h2 {
+        color: map-get($colors, white-col);
+    }
+    .linea-horizontal-izquierda {
+        @extend .linea-horizontal;
+    }
+    .parrafo-izquierda {
+        color: map-get($colors, white-col);
+        text-align: center;
+        font-family: $font-family;
+        // font-size: map-get($font-sizes, m);
+        margin: 100px;
+    }
+}
+
+.config-derecha {
+    @extend .config-izquierda;
+    .linea-horizontal-derecha {
+        @extend .linea-horizontal;
+    }
+    .parrafo-derecha {
+        @extend .parrafo-izquierda;
+    }
+    
+}
+
+.contenedor-img {
+    padding: 0px;
+    .img-derecha {
+        @include medidas(100%, 900px);
+    }
+    .img-izquierda {
+        @extend .img-derecha;
+    }
+}
