@@ -6,20 +6,19 @@ body {
     background-color: map-get($colors, "negro-especial");
 }
 
-h1 {
-    font-size: map-get($font-sizes, "xxl");
-    color: map-get($colors, "blanco-especial");
-    font-family: $font-family;
-}
-
 .seccion-1 {
-    // @include flex2(column);
-    display: flex;
-    flex-direction: column;
+    @include flex2(column);
+    // display: flex;
+    // flex-direction: column;
     margin: 250px 150px;
     padding: 20px;
     text-align: center;
-
+    h1 {
+        font-size: map-get($font-sizes, "xxl");
+        color: map-get($colors, "blanco-especial");
+        font-family: $font-family;
+    }
+    
     p {
         font-family: $font-family;
         color: map-get($colors, "white-col");
@@ -27,7 +26,9 @@ h1 {
         font-size: 32px;
     }
 }
-
+ .seccion-2 {
+    @extend .seccion-1;
+ }
 .titulo {
     text-align: center;
 }

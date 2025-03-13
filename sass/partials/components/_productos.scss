@@ -1,0 +1,27 @@
+// Carrusel 
+
+.carousel-caption {
+    h5 {
+        font-family: $font-family;
+        font-size: map-get($font-sizes, especial-2);
+        color: map-get($colors, black-col);
+    }
+    p {
+        font-family: $font-family;
+        font-size: map-get($font-sizes, l);
+        color: map-get($colors, black-col);
+    }
+}
+
+.carousel-control-prev-icon {
+    filter: invert(100%);
+    @include medidas(70px, 70px);
+}
+
+.carousel-control-next-icon {
+    @extend .carousel-control-prev-icon;
+}
+
+.carrusel-img {
+    @include medidas(100%, 1000px);
+}
