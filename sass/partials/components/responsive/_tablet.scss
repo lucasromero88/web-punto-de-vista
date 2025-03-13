@@ -1,0 +1,41 @@
+@media (min-width: 451px) and (max-width: 1200px) {
+    header {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    // h1 {
+    //     font-size: map-get($font-sizes, especial-3);
+    //     color: map-get($colors, blanco-especial);
+    //     font-family: $font-family;
+    // }
+    // Footer
+    .footer-style img {
+        @include medidas(50px, 50px);
+    }
+    .footer-contenedor {
+        gap: map-get($font-sizes, especial-5);
+    }
+    // Index
+    .seccion-1 {
+        margin: 160px 50px;
+        h1 {
+            font-size: map-get($font-sizes, xxl);
+        }
+        p {
+            font-size: map-get($font-sizes, especial-3);
+        }
+        .linea-horizontal {
+            @include medidas-2(10px, 40px);
+        }
+    }
+    .seccion-2 {
+        @extend .seccion-1;
+        h2 {
+            font-size: map-get($font-sizes, xxl);
+        }
+    }
+    .tamaño-img {
+        @include medidas(100%, 800px);
+    }
+    
+}
