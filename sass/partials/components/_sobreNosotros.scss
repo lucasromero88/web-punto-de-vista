@@ -1,0 +1,9 @@
+.config-video {
+    @include medidas(100%, 500px);
+}
+
+.parrafo-sobre-nosotros-1 {
+    @include flex(column, center, center);
+    flex-wrap: wrap;
+    font-size: map-get($font-sizes, xl);
+}

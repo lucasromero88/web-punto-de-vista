@@ -134,6 +134,16 @@ body {
   height: 1000px;
 }
 
+.servicios-1 {
+  font-size: 48px;
+  color: #f1eff4;
+  font-family: "Poiret One", serif;
+}
+
+.titulo {
+  color: #f1eff4;
+}
+
 .config-izquierda, .config-derecha {
   display: flex;
   flex-direction: column;
@@ -159,6 +169,19 @@ body {
 .contenedor-img .img-derecha, .contenedor-img .img-izquierda {
   width: 100%;
   height: 900px;
+}
+.config-video {
+  width: 100%;
+  height: 500px;
+}
+
+.parrafo-sobre-nosotros-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */

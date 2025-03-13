@@ -1,3 +1,13 @@
+.servicios-1 {
+    font-size: map-get($font-sizes, xxl);
+    color: map-get($colors, blanco-especial);
+    font-family: $font-family;
+}
+
+.titulo {
+    color: map-get($colors, blanco-especial)
+}
+
 .config-izquierda {
     @include flex(column, center, center);
     @include medidas-2(200px, 200px);
