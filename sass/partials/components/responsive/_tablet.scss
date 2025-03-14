@@ -3,11 +3,6 @@
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    // h1 {
-    //     font-size: map-get($font-sizes, especial-3);
-    //     color: map-get($colors, blanco-especial);
-    //     font-family: $font-family;
-    // }
     // Footer
     .footer-style img {
         @include medidas(50px, 50px);
@@ -37,5 +32,18 @@
     .tamaño-img {
         @include medidas(100%, 800px);
     }
-    
+    // Ajustes contactenos
+    .contenedor-formulario {
+        @include flex(column, center, center);
+    }
+    // Formulario
+    .contenedor-formulario {
+        @include flex(column, center, center);
+        padding-left: 100px;
+        .campo-formulario {
+            font-size: map-get($font-sizes, xs);
+            width: 500px;
+            padding: 10px;
+        }
+    }
 }

@@ -265,6 +265,24 @@ body {
     width: 100%;
     height: 800px;
   }
+  .contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+  }
+  .contenedor-formulario .campo-formulario, .contenedor-formulario .campo-textarea, .contenedor-formulario .botom-formulario {
+    font-size: 14px;
+    width: 500px;
+    padding: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
