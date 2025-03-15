@@ -207,6 +207,9 @@ body {
   width: 500px;
   height: 500px;
 }
+.contenedor-informacion .section-informacion {
+  margin-bottom: 100px;
+}
 
 .contenedor-formulario {
   display: flex;

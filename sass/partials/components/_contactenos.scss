@@ -18,6 +18,9 @@
     .config-mapa{
         @include medidas(500px, 500px);
     }
+    .section-informacion {
+        margin-bottom: 100px;
+    }
 }
 
 .contenedor-formulario {
