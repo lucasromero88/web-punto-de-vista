@@ -70,10 +70,12 @@
 .imagen-style {
   width: 100%;
   height: 650px;
+  border-radius: 8px;
 }
 
 .imagen-style-video {
   width: 100%;
+  border-radius: 8px;
 }
 
 body {
@@ -228,6 +230,7 @@ body {
   width: 500px;
   height: 500px;
   margin: 100px;
+  border-radius: 8px;
 }
 .contenedor-informacion .section-informacion {
   margin-bottom: 100px;

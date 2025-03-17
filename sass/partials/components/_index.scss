@@ -1,9 +1,11 @@
 .imagen-style {
     @include medidas(100%, 650px);
+    border-radius: $borde-radius;
 }
 
 .imagen-style-video {
     width: 100%;
+    border-radius: $borde-radius;
 }
 body {
     background-color: map-get($colors, "negro-especial");
