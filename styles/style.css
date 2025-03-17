@@ -38,7 +38,7 @@
   border-radius: 5px;
   text-align: center;
 }
-.footer-style h2 {
+.footer-style h2, .footer-style .container-card .cards p, .container-card .cards .footer-style p {
   color: black;
   margin-bottom: auto;
 }
@@ -131,6 +131,10 @@ body {
   margin: 0 auto;
 }
 
+.seccion-1, .seccion-2 {
+  margin: 100px;
+}
+
 .carousel-caption h5 {
   font-family: "Poiret One", serif;
   font-size: 70px;
@@ -146,13 +150,38 @@ body {
   filter: invert(100%);
   width: 70px;
   height: 70px;
+  color: #f1eff4;
 }
 
-.carrusel-img {
-  width: 100%;
-  height: 1000px;
+.carousel-item .carrusel-img {
+  border-radius: 15px;
+  max-width: 70%;
+  margin: 0 auto;
+  height: auto;
+  display: block;
 }
 
+.container-card {
+  margin: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: none;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.container-card .cards {
+  padding: 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 800px;
+}
+.container-card .cards h2, .container-card .cards p {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: "Poiret One", serif;
+}
 .servicios-1 {
   font-size: 48px;
   color: #f1eff4;
@@ -182,7 +211,7 @@ body {
   margin-bottom: 60px;
   flex-wrap: wrap;
 }
-.config-izquierda h2, .config-derecha h2 {
+.config-izquierda h2, .config-derecha h2, .config-izquierda .container-card .cards p, .config-derecha .container-card .cards p, .container-card .cards .config-izquierda p, .container-card .cards .config-derecha p {
   color: white;
 }
 .config-izquierda .parrafo-izquierda, .config-derecha .parrafo-izquierda, .config-derecha .parrafo-derecha {
@@ -328,7 +357,7 @@ body {
     margin-top: 10px;
     margin-bottom: 40px;
   }
-  .seccion-2 h2 {
+  .seccion-2 h2, .seccion-2 .container-card .cards p, .container-card .cards .seccion-2 p {
     font-size: 48px;
   }
   .contenedor-tamaño-estructura {
@@ -337,7 +366,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .contenedor-tamaño-estructura h2 {
+  .contenedor-tamaño-estructura h2, .contenedor-tamaño-estructura .container-card .cards p, .container-card .cards .contenedor-tamaño-estructura p {
     font-family: "Poiret One", serif;
     font-size: 48px;
   }
@@ -420,7 +449,7 @@ body {
     margin-top: 10px;
     margin-bottom: 40px;
   }
-  .seccion-2 h2 {
+  .seccion-2 h2, .seccion-2 .container-card .cards p, .container-card .cards .seccion-2 p {
     font-size: 24px;
   }
   .contenedor-informacion {

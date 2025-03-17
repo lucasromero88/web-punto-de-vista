@@ -1,4 +1,7 @@
 // Carrusel 
+.seccion-1 {
+    margin: 100px;
+}
 
 .carousel-caption {
     h5 {
@@ -16,12 +19,45 @@
 .carousel-control-prev-icon {
     filter: invert(100%);
     @include medidas(70px, 70px);
+    color: map-get($colors, blanco-especial);
 }
 
 .carousel-control-next-icon {
     @extend .carousel-control-prev-icon;
 }
 
-.carrusel-img {
-    @include medidas(100%, 1000px);
+.carousel-item {
+    // @include flex(center, center, center);
+    .carrusel-img {
+        // @include medidas(800px, 800px);
+        border-radius: 15px;
+        max-width: 70%;
+        margin: 0 auto;
+        height: auto;
+        display: block;
+    }
+}
+
+.container-card {
+    margin: 32px;
+    @include flex(row, space-evenly, none);
+    flex-wrap: wrap;
+    gap: 32px;
+
+    .cards {
+        padding: 16px;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 800px;
+        h2 {
+            text-align: center;
+            color: map-get($colors, white-col);
+            font-size: map-get($font-sizes, xl);
+            font-family: $font-family
+
+        }
+        p {
+            @extend h2;
+        }
+    }
 }

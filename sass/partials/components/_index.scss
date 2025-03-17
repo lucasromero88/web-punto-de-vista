@@ -8,7 +8,7 @@
     border-radius: $borde-radius;
 }
 body {
-    background-color: map-get($colors, "negro-especial");
+    background-color: map-get($colors, negro-especial);
 }
 
 .seccion-1 {
@@ -19,14 +19,14 @@ body {
     padding: 20px;
     text-align: center;
     h1 {
-        font-size: map-get($font-sizes, "xxl");
-        color: map-get($colors, "blanco-especial");
+        font-size: map-get($font-sizes, xxl);
+        color: map-get($colors, blanco-especial);
         font-family: $font-family;
     }
     
     p {
         font-family: $font-family;
-        color: map-get($colors, "white-col");
+        color: map-get($colors, white-col);
         text-align: center;
         font-size: 32px;
     }
@@ -40,9 +40,9 @@ body {
 
 .subtitulo {
     margin-bottom: 20px;
-    color: map-get($colors, "white-col");
+    color: map-get($colors, white-col);
     font-family: $font-family;
-    font-size: map-get($font-sizes, "especial-1");
+    font-size: map-get($font-sizes, especial-1);
 }
 
 .container-card{
