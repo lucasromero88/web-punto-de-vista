@@ -1,0 +1,71 @@
+@media (max-width: 450px) {
+    header {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    // Footer
+    .footer-style img {
+        @include medidas(40px, 40px);
+    }
+    .footer-contenedor {
+        // gap: map-get($font-sizes, especial-5);
+    }
+    .imagen-style {
+        @include medidas(100%, 350px);
+    }
+    // Index
+    .seccion-1 {
+        margin: 50px 50px;
+        h1 {
+            font-size: map-get($font-sizes, l);
+        }
+        p {
+            font-size: map-get($font-sizes, xs);
+        }
+        .linea-horizontal {
+            @include medidas-2(10px, 40px);
+        }
+    }
+    .carrusel-img {
+        @include medidas(100%, 350px);
+    }
+    .seccion-2 {
+        margin: 160px 50px;
+        h1 {
+            font-size: map-get($font-sizes, l);
+        }
+        p {
+            font-size: map-get($font-sizes, xs);
+        }
+        .linea-horizontal {
+            @include medidas-2(10px, 40px);
+        }
+        h2 {
+            font-size: map-get($font-sizes, l);
+        }
+    }
+    // Ajustes contactenos
+    .contenedor-informacion {
+        @include flex(column, center, center);
+        margin: 100px;
+        .titulo-contacto {
+            font-size: map-get($font-sizes, l);
+        }
+    }
+    .mapa {
+        .config-mapa {
+            @include medidas(250px, 250px);
+            margin: 100px;
+        }
+    }
+    // Formulario
+    .contenedor-formulario {
+        @include flex(column, center, center);
+        padding-left: 100px;
+        .campo-formulario {
+            font-size: map-get($font-sizes, xs);
+            width: 300px;
+            padding: 10px;
+        }
+    }
+}

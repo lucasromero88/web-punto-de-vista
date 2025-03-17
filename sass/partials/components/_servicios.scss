@@ -8,9 +8,15 @@
     color: map-get($colors, blanco-especial)
 }
 
+.contenedor-tamaño {
+    @include flex(column, center, center);
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .config-izquierda {
     @include flex(column, center, center);
-    @include medidas-2(200px, 200px);
+    @include medidas-2(60px, 60px);
     flex-wrap: wrap;
     h2 {
         color: map-get($colors, white-col);
@@ -23,7 +29,7 @@
         text-align: center;
         font-family: $font-family;
         // font-size: map-get($font-sizes, m);
-        margin: 100px;
+        margin: 50px;
     }
 }
 
@@ -39,9 +45,13 @@
 }
 
 .contenedor-img {
+    @include flex(none, center, center);
     padding: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     .img-derecha {
-        @include medidas(100%, 900px);
+        @include medidas(500px, 500px);
+        border-radius: 10px;
     }
     .img-izquierda {
         @extend .img-derecha;

@@ -2,6 +2,9 @@
     @include medidas(100%, 650px);
 }
 
+.imagen-style-video {
+    width: 100%;
+}
 body {
     background-color: map-get($colors, "negro-especial");
 }

@@ -17,6 +17,7 @@
     }
     .config-mapa{
         @include medidas(500px, 500px);
+        margin: 100px;
     }
     .section-informacion {
         margin-bottom: 100px;
