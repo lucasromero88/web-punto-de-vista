@@ -174,7 +174,7 @@ body {
   padding: 16px;
   border: 1px solid white;
   border-radius: 5px;
-  width: 800px;
+  width: 600px;
 }
 .container-card .cards h2, .container-card .cards p {
   text-align: center;
@@ -242,7 +242,7 @@ body {
 }
 
 .config-video {
-  width: 100%;
+  width: 500px;
   height: 500px;
 }
 
@@ -255,8 +255,24 @@ body {
   font-size: 32px;
 }
 
-.contenedor-informacion {
-  margin: 100px 100px;
+.contenedor-informacion .container-card {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: none;
+}
+.contenedor-informacion .container-card .cards {
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 700px;
+}
+.contenedor-informacion .config-imagen-texto {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: center;
 }
 .contenedor-informacion h1 {
   color: #f1eff4;
@@ -264,20 +280,21 @@ body {
   font-size: 48px;
 }
 .contenedor-informacion .icono-informacion {
+  display: inline-block;
   width: 60px;
   height: 38px;
   color: white;
   margin-right: 10px;
-  float: left;
 }
 .contenedor-informacion p {
   padding: 0px;
+  display: inline-block;
   color: white;
 }
 .contenedor-informacion .config-mapa {
-  width: 500px;
+  width: 640px;
   height: 500px;
-  margin: 100px;
+  margin: 16px;
   border-radius: 8px;
 }
 .contenedor-informacion .section-informacion {

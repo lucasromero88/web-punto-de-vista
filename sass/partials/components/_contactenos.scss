@@ -1,23 +1,43 @@
 .contenedor-informacion {
-    margin: 100px 100px;
+    // margin: 100px 100px;
+    .container-card {
+        margin: 50px;
+        @include flex(row, center, none);
+        // flex-wrap: wrap;
+        // gap: 32px;
+        .cards {
+            padding: 16px;
+            border: none;
+            border-radius: 5px;
+            width: 700px;
+        }
+    }
+    
+    .config-imagen-texto {
+        @include flex(none, none, center);
+    }
+
     h1 {
         color: map-get($colors, blanco-especial);
         font-family: $font-family;
         font-size: map-get($font-sizes, xxl);
     }
     .icono-informacion {
+        display: inline-block;
         @include medidas(60px, 38px);
         color: map-get($colors, white-col);
         margin-right: 10px;
-        float: left;
+        // float: left;
     }
     p {
         padding: 0px;
+        display: inline-block;
+        // @include medidas(450px, none);
         color: map-get($colors, white-col);
     }
     .config-mapa{
-        @include medidas(500px, 500px);
-        margin: 100px;
+        @include medidas(640px, 500px);
+        margin: 16px;
         border-radius: $borde-radius;
     }
     .section-informacion {
@@ -30,7 +50,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
     margin-bottom: 50px;
-
+    
     .texto-formulario {
         color: map-get($colors, white-col);
     }
