@@ -13,6 +13,13 @@
     .imagen-style {
         @include medidas(100%, 350px);
     }
+    .custom-toggler {
+        border: 2px solid white;
+    }
+    .navbar-toggler-icon {
+        background-image: url("/assets/img/icono-lista-menu-2.png");
+        // background-color: map-get($colors, white-col );
+    }
     // Index
     .seccion-1 {
         margin: 50px 50px;
