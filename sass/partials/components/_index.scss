@@ -45,8 +45,19 @@ body {
     font-size: map-get($font-sizes, "especial-1");
 }
 
-.tamaño-img {
-    @include medidas(100%, 1000px);
-    margin: 0 auto;
+.container-card{
+    margin: 32px;
+    @include flex(row, space-evenly, none);
+    flex-wrap: wrap;
+    .contenedor-carrusel {
+        padding: 12px;
+        width: 800px;
+        border: 1px solid white;
+        .tamaño-img {
+            @include medidas(100%, 500px);
+            margin: 0 auto;
+        }
+        
+    }
 }
 
