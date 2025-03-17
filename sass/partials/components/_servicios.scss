@@ -28,7 +28,7 @@
         color: map-get($colors, white-col);
         text-align: center;
         font-family: $font-family;
-        // font-size: map-get($font-sizes, m);
+        font-size: map-get($font-sizes, l);
         margin: 50px;
     }
 }
@@ -50,10 +50,15 @@
     margin-top: 25px;
     margin-bottom: 25px;
     .img-derecha {
-        @include medidas(500px, 500px);
+        @include medidas(600px, 600px);
         border-radius: 10px;
     }
     .img-izquierda {
         @extend .img-derecha;
     }
+}
+
+.container-servicios {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
