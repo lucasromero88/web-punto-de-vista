@@ -32,6 +32,12 @@
         .linea-horizontal {
             @include medidas-2(10px, 40px);
         }
+        h2 {
+            font-size: map-get($font-sizes, l);
+        }
+        h3 {
+            font-size: map-get($font-sizes, xl)
+        }
     }
     .carrusel-img {
         @include medidas(100%, 350px);
@@ -97,4 +103,9 @@
             @include medidas(250px, 250px);       
         }
     }
+    // Sobre Nosotros
+    .config-video {
+        @include medidas(200px, 200px);
+    }
+    
 }

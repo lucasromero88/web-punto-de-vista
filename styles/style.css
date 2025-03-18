@@ -466,6 +466,12 @@ body {
     margin-top: 10px;
     margin-bottom: 40px;
   }
+  .seccion-1 h2, .seccion-2 h2, .seccion-1 .container-card .cards p, .container-card .cards .seccion-1 p, .seccion-2 .container-card .cards p, .container-card .cards .seccion-2 p {
+    font-size: 24px;
+  }
+  .seccion-1 h3, .seccion-2 h3 {
+    font-size: 32px;
+  }
   .carrusel-img {
     width: 100%;
     height: 350px;
@@ -531,6 +537,10 @@ body {
   .contenedor-tamaño-estructura .img-derecha, .contenedor-tamaño-estructura .contenedor-img .img-izquierda, .contenedor-img .contenedor-tamaño-estructura .img-izquierda {
     width: 250px;
     height: 250px;
+  }
+  .config-video {
+    width: 200px;
+    height: 200px;
   }
 }
 
