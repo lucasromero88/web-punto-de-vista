@@ -512,6 +512,26 @@ body {
     width: 300px;
     padding: 10px;
   }
+  .container-servicios {
+    margin: 0px;
+  }
+  .contenedor-tamaño-estructura {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-tamaño-estructura .contenedor-tamaño .config-izquierda h2, .contenedor-tamaño-estructura .contenedor-tamaño .config-izquierda .container-card .cards p, .container-card .cards .contenedor-tamaño-estructura .contenedor-tamaño .config-izquierda p, .contenedor-tamaño-estructura .contenedor-tamaño .config-derecha .container-card .cards p, .container-card .cards .contenedor-tamaño-estructura .contenedor-tamaño .config-derecha p, .contenedor-tamaño-estructura .contenedor-tamaño .config-derecha h2 {
+    font-family: "Poiret One", serif;
+    font-size: 16px;
+  }
+  .contenedor-tamaño-estructura .contenedor-tamaño .config-izquierda p, .contenedor-tamaño-estructura .contenedor-tamaño .config-derecha p {
+    font-size: 14px;
+  }
+  .contenedor-tamaño-estructura .img-derecha, .contenedor-tamaño-estructura .contenedor-img .img-izquierda, .contenedor-img .contenedor-tamaño-estructura .img-izquierda {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
