@@ -82,9 +82,15 @@
     }
     // Ajustes contactenos
     .contenedor-formulario {
-        @include flex(column, center, center);
+        @include flex(center, center, center);
+        // .config-mapa {
+        //     @include medidas(50px, 50px);
+        // }
+    }
+    .mapa {
         .config-mapa {
-            @include medidas(50px, 50px);
+            @include medidas(450px, 350px);
+            // margin: 100px;
         }
     }
     // Formulario
@@ -97,31 +103,9 @@
             padding: 10px;
         }
     }
-        //  Servicios
-    .container-servicios {
-        margin: 0px;
-    }
-    .contenedor-tamaño-estructura {
-        @include flex(center, center, center);
-        .contenedor-tamaño {
-            .config-izquierda, .config-derecha {
-                h2 {
-                    font-family: $font-family;
-                    font-size: map-get($font-sizes, m);
-                }
-                p {
-                    font-size: map-get($font-sizes, xs);
-                }
-            }
-        } 
-        
-        .img-derecha {
-            @include medidas(250px, 250px);       
-        }
-    }
     //  Servicios
     .container-servicios {
-        margin: 0px;
+        // margin: 0px;
     }
     .contenedor-tamaño-estructura {
         // @include flex(center, center, center);
@@ -139,6 +123,15 @@
         
         .img-derecha {
             @include medidas(600px, 600px);       
+        }
+    }
+    // Sobre Nosotros
+    .nosotros {
+        h3 {
+            font-size: map-get($font-sizes, xl);
+        }
+        p {
+            font-size: map-get($font-sizes, l);
         }
     }
 }
