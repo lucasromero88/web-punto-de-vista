@@ -492,30 +492,32 @@ body {
   .seccion-2 h2, .seccion-2 .container-card .cards p, .container-card .cards .seccion-2 p {
     font-size: 24px;
   }
-  .contenedor-informacion {
+  .contenedor-informacion .container-card {
+    margin: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin: 100px;
+    align-items: none;
   }
-  .contenedor-informacion .titulo-contacto {
-    font-size: 24px;
+  .contenedor-informacion h1 {
+    font-size: 32px;
+  }
+  .contenedor-informacion .icono-informacion {
+    width: 35px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .contenedor-informacion .config-imagen-texto p {
+    font-size: 14px;
   }
   .mapa .config-mapa {
     width: 250px;
     height: 250px;
-    margin: 100px;
-  }
-  .contenedor-formulario {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .contenedor-formulario .campo-formulario, .contenedor-formulario .campo-textarea, .contenedor-formulario .botom-formulario {
     font-size: 14px;
-    width: 300px;
+    width: 200px;
+    height: 50px;
     padding: 10px;
   }
   .container-servicios {

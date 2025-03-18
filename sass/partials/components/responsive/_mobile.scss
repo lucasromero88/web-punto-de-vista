@@ -59,25 +59,39 @@
     }
     // Ajustes contactenos
     .contenedor-informacion {
-        @include flex(column, center, center);
-        margin: 100px;
-        .titulo-contacto {
-            font-size: map-get($font-sizes, l);
+        .container-card {
+            margin: 10px;
+            @include flex(row, center, none);
         }
+        h1 {
+            font-size: map-get($font-sizes, xl);
+        }
+        .icono-informacion {
+            @include medidas(35px, 20px);
+            margin-right: 10px;
+        }
+        .config-imagen-texto {
+            p {
+                font-size: map-get($font-sizes, xs)
+            }
+        }
+
     }
     .mapa {
         .config-mapa {
             @include medidas(250px, 250px);
-            margin: 100px;
+            // margin: 100px;
         }
     }
     // Formulario
     .contenedor-formulario {
-        @include flex(column, center, center);
+        // @include flex(column, center, center);
         // padding-left: 100px;
         .campo-formulario {
+            
             font-size: map-get($font-sizes, xs);
-            width: 300px;
+            @include medidas(200px, 50px);
+            // width: 300px;
             padding: 10px;
         }
     }
