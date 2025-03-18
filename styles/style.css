@@ -506,7 +506,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 100px;
   }
   .contenedor-formulario .campo-formulario, .contenedor-formulario .campo-textarea, .contenedor-formulario .botom-formulario {
     font-size: 14px;
