@@ -383,6 +383,15 @@ body {
   .seccion-2 h2, .seccion-2 .container-card .cards p, .container-card .cards .seccion-2 p {
     font-size: 48px;
   }
+  .config-izquierda, .config-derecha {
+    display: flex;
+    flex-direction: center;
+    justify-content: none;
+    align-items: center;
+  }
+  .config-izquierda .parrafo-izquierda, .config-derecha .parrafo-izquierda, .config-derecha .parrafo-derecha {
+    font-size: 24px;
+  }
   .contenedor-tamaño-estructura {
     display: flex;
     flex-direction: center;

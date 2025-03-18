@@ -57,6 +57,13 @@
             font-size: map-get($font-sizes, xxl);
         }
     }
+
+    .config-izquierda {
+        @include flex(center, none, center);
+        .parrafo-izquierda {
+            font-size: map-get($font-sizes, l);
+        }
+    }
     .contenedor-tamaño-estructura {
         @include flex(center, center,center);
         h2 {
