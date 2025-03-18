@@ -63,6 +63,9 @@
         .parrafo-izquierda {
             font-size: map-get($font-sizes, l);
         }
+        h2 {
+            
+        }
     }
     .contenedor-tamaño-estructura {
         @include flex(center, center,center);
