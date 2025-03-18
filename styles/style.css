@@ -440,6 +440,9 @@ body {
     width: 40px;
     height: 40px;
   }
+  .footer-contenedor {
+    gap: 25px;
+  }
   .imagen-style {
     width: 100%;
     height: 350px;
