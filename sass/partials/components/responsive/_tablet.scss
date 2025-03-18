@@ -90,7 +90,7 @@
     // Formulario
     .contenedor-formulario {
         @include flex(column, center, center);
-        padding-left: 100px;
+        // padding-left: 100px;
         .campo-formulario {
             font-size: map-get($font-sizes, xs);
             width: 500px;
