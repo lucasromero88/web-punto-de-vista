@@ -350,7 +350,7 @@ body {
     border: 2px solid white;
   }
   .navbar-toggler-icon {
-    background-image: url("../assets/img/icono-lista-menu-2.png");
+    background-image: url("../assets/logos/icono-lista-menu.png");
   }
   .seccion-1, .seccion-2 {
     margin: 160px 50px;
@@ -469,7 +469,7 @@ body {
     border: 2px solid white;
   }
   .navbar-toggler-icon {
-    background-image: url("../assets/img/icono-lista-menu-2.png");
+    background-image: url("../assets/logos/icono-lista-menu.png");
   }
   .seccion-1, .seccion-2 {
     margin: 50px 50px;
