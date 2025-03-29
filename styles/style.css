@@ -310,19 +310,27 @@ body {
   margin-bottom: 100px;
   margin-bottom: 50px;
 }
-.contenedor-formulario .texto-formulario {
+.contenedor-formulario .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: none;
+  margin-bottom: 15px;
+}
+.contenedor-formulario .formulario .texto-formulario {
   color: white;
 }
-.contenedor-formulario .campo-formulario, .contenedor-formulario .botom-formulario, .contenedor-formulario .campo-textarea {
+.contenedor-formulario .formulario .campo-formulario, .contenedor-formulario .formulario .botom-formulario, .contenedor-formulario .formulario .campo-textarea {
   width: 1000px;
   height: none;
   border: 1px solid black;
   border-radius: 5px;
 }
-.contenedor-formulario .botom-formulario {
+.contenedor-formulario .formulario .botom-formulario {
   height: 40px;
+  margin-top: 15px;
 }
-.contenedor-formulario .botom-formulario:hover {
+.contenedor-formulario .formulario .botom-formulario:hover {
   color: #004080;
 }
 
@@ -409,12 +417,6 @@ body {
     width: 100%;
     height: 500px;
   }
-  .contenedor-formulario {
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    align-items: center;
-  }
   .mapa .config-mapa {
     width: 450px;
     height: 350px;
@@ -425,7 +427,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .contenedor-formulario .campo-formulario, .contenedor-formulario .campo-textarea, .contenedor-formulario .botom-formulario {
+  .contenedor-formulario .formulario .campo-formulario, .contenedor-formulario .formulario .campo-textarea, .contenedor-formulario .formulario .botom-formulario {
     font-size: 14px;
     width: 500px;
     padding: 10px;
@@ -530,7 +532,7 @@ body {
     width: 250px;
     height: 250px;
   }
-  .contenedor-formulario .campo-formulario, .contenedor-formulario .campo-textarea, .contenedor-formulario .botom-formulario {
+  .contenedor-formulario .formulario .campo-formulario, .contenedor-formulario .formulario .campo-textarea, .contenedor-formulario .formulario .botom-formulario {
     font-size: 14px;
     width: 200px;
     height: 50px;

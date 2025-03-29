@@ -87,12 +87,14 @@
     .contenedor-formulario {
         // @include flex(column, center, center);
         // padding-left: 100px;
-        .campo-formulario {
+        .formulario {
+            .campo-formulario {
             
-            font-size: map-get($font-sizes, xs);
-            @include medidas(200px, 50px);
-            // width: 300px;
-            padding: 10px;
+                font-size: map-get($font-sizes, xs);
+                @include medidas(200px, 50px);
+                // width: 300px;
+                padding: 10px;
+            }
         }
     }
     //  Servicios

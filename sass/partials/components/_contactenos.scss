@@ -50,24 +50,28 @@
     margin-top: 100px;
     margin-bottom: 100px;
     margin-bottom: 50px;
+    .formulario {
+        @include flex(column, none, none);
+        margin-bottom: 15px;
+        .texto-formulario {
+            color: map-get($colors, white-col);
+        }
+        .campo-formulario {
+            @include medidas(1000px, none);
+            border: 1px solid black;
+            border-radius: 5px;
     
-    .texto-formulario {
-        color: map-get($colors, white-col);
-    }
-    .campo-formulario {
-        @include medidas(1000px, none);
-        border: 1px solid black;
-        border-radius: 5px;
-
-    }
-    .campo-textarea {
-        @extend .campo-formulario;
-    }
-    .botom-formulario {
-        @extend .campo-formulario;
-        height: 40px;
-        &:hover {
-            color: map-get($colors, azul-tipo);
+        }
+        .campo-textarea {
+            @extend .campo-formulario;
+        }
+        .botom-formulario {
+            @extend .campo-formulario;
+            height: 40px;
+            margin-top: 15px;
+            &:hover {
+                color: map-get($colors, azul-tipo);
+            }
         }
     }
 }
