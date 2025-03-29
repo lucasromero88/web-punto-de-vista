@@ -261,6 +261,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: none;
+  flex-wrap: wrap;
 }
 .contenedor-informacion .container-card .cards {
   padding: 16px;
@@ -418,8 +419,7 @@ body {
     height: 500px;
   }
   .mapa .config-mapa {
-    width: 450px;
-    height: 350px;
+    width: 100%;
   }
   .contenedor-formulario {
     display: flex;
@@ -529,8 +529,7 @@ body {
     font-size: 14px;
   }
   .mapa .config-mapa {
-    width: 250px;
-    height: 250px;
+    width: 90%;
   }
   .contenedor-formulario .formulario .campo-formulario, .contenedor-formulario .formulario .campo-textarea, .contenedor-formulario .formulario .botom-formulario {
     font-size: 14px;

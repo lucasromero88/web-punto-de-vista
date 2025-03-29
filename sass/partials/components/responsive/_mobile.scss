@@ -79,7 +79,8 @@
     }
     .mapa {
         .config-mapa {
-            @include medidas(250px, 250px);
+            // @include medidas(180px, 250px);
+            width: 90%;
             // margin: 100px;
         }
     }

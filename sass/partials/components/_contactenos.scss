@@ -3,7 +3,7 @@
     .container-card {
         margin: 50px;
         @include flex(row, center, none);
-        // flex-wrap: wrap;
+        flex-wrap: wrap;
         // gap: 32px;
         .cards {
             padding: 16px;
