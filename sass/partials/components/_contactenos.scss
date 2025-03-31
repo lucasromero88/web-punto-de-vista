@@ -1,10 +1,8 @@
 .contenedor-informacion {
-    // margin: 100px 100px;
     .container-card {
         margin: 50px;
         @include flex(row, center, none);
         flex-wrap: wrap;
-        // gap: 32px;
         .cards {
             padding: 16px;
             border: none;
@@ -27,12 +25,10 @@
         @include medidas(60px, 38px);
         color: map-get($colors, white-col);
         margin-right: 10px;
-        // float: left;
     }
     p {
         padding: 0px;
         display: inline-block;
-        // @include medidas(450px, none);
         color: map-get($colors, white-col);
     }
     .config-mapa{

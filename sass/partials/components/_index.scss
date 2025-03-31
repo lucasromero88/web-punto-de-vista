@@ -13,8 +13,6 @@ body {
 
 .seccion-1 {
     @include flex2(column);
-    // display: flex;
-    // flex-direction: column;
     margin: 250px 150px;
     padding: 20px;
     text-align: center;
