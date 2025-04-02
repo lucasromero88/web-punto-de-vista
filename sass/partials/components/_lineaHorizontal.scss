@@ -1,5 +1,5 @@
 .linea-horizontal {
     @include medidas(65%, 2px);
-    background-color: map-get($colors, black-col );
+    background-color: map-get($colors, black-col);
     margin: 20px auto;
 }

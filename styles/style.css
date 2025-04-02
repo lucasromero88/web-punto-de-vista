@@ -19,7 +19,7 @@
   height: 30px;
 }
 .navbar .navbar-nav .nav-item .nav-link {
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   padding: 10px 15px;
@@ -27,19 +27,19 @@
   transition: color 0.3s ease-in-out;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #716f65;
+  color: #DEDEB8;
 }
 
 .footer-style {
   width: 100%;
   height: none;
   padding: 40px;
-  background-color: beige;
+  background-color: #f5f5dc;
   border-radius: 5px;
   text-align: center;
 }
 .footer-style h2, .footer-style .container-card .cards p, .container-card .cards .footer-style p {
-  color: black;
+  color: #2f2424;
   margin-bottom: auto;
 }
 .footer-style p {
@@ -49,6 +49,9 @@
 .footer-style img {
   width: 60px;
   height: 60px;
+}
+.footer-style .linea-horizontal, .footer-style .config-derecha .linea-horizontal-derecha, .config-derecha .footer-style .linea-horizontal-derecha, .footer-style .config-izquierda .linea-horizontal-izquierda, .footer-style .config-derecha .linea-horizontal-izquierda, .config-izquierda .footer-style .linea-horizontal-izquierda, .config-derecha .footer-style .linea-horizontal-izquierda {
+  background-color: #2f2424;
 }
 
 .footer-contenedor {
@@ -60,10 +63,10 @@
   gap: 80px;
 }
 
-.linea-horizontal, .config-derecha .linea-horizontal-derecha, .config-izquierda .linea-horizontal-izquierda, .config-derecha .linea-horizontal-izquierda, .linea {
+.linea-horizontal, .config-derecha .linea-horizontal-derecha, .config-izquierda .linea-horizontal-izquierda, .config-derecha .linea-horizontal-izquierda {
   width: 65%;
   height: 2px;
-  background-color: black;
+  background-color: #B3B3B3;
   margin: 20px auto;
 }
 
@@ -96,7 +99,7 @@ body {
 }
 .seccion-1 p, .seccion-2 p {
   font-family: "Poiret One", serif;
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-size: 32px;
 }
@@ -107,7 +110,7 @@ body {
 
 .subtitulo {
   margin-bottom: 20px;
-  color: white;
+  color: #ffffff;
   font-family: "Poiret One", serif;
   font-size: 60px;
 }
@@ -138,12 +141,12 @@ body {
 .carousel-caption h5 {
   font-family: "Poiret One", serif;
   font-size: 70px;
-  color: black;
+  color: #B3B3B3;
 }
 .carousel-caption p {
   font-family: "Poiret One", serif;
   font-size: 24px;
-  color: black;
+  color: #B3B3B3;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -178,7 +181,7 @@ body {
 }
 .container-card .cards h2, .container-card .cards p {
   text-align: center;
-  color: white;
+  color: #ffffff;
   font-size: 32px;
   font-family: "Poiret One", serif;
 }
@@ -212,10 +215,10 @@ body {
   flex-wrap: wrap;
 }
 .config-izquierda h2, .config-derecha h2, .config-izquierda .container-card .cards p, .config-derecha .container-card .cards p, .container-card .cards .config-izquierda p, .container-card .cards .config-derecha p {
-  color: white;
+  color: #ffffff;
 }
 .config-izquierda .parrafo-izquierda, .config-derecha .parrafo-izquierda, .config-derecha .parrafo-derecha {
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-family: "Poiret One", serif;
   font-size: 24px;
@@ -284,13 +287,13 @@ body {
   display: inline-block;
   width: 60px;
   height: 38px;
-  color: white;
+  color: #ffffff;
   margin-right: 10px;
 }
 .contenedor-informacion p {
   padding: 0px;
   display: inline-block;
-  color: white;
+  color: #ffffff;
 }
 .contenedor-informacion .config-mapa {
   width: 640px;
@@ -319,7 +322,7 @@ body {
   margin-bottom: 15px;
 }
 .contenedor-formulario .formulario .texto-formulario {
-  color: white;
+  color: #ffffff;
 }
 .contenedor-formulario .formulario .campo-formulario, .contenedor-formulario .formulario .botom-formulario, .contenedor-formulario .formulario .campo-textarea {
   width: 1000px;
@@ -362,7 +365,7 @@ body {
   .seccion-1 p, .seccion-2 p {
     font-size: 28px;
   }
-  .seccion-1 .linea-horizontal, .seccion-2 .linea-horizontal, .seccion-1 .linea, .seccion-2 .linea, .seccion-1 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-1 .linea-horizontal-izquierda, .seccion-2 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-2 .linea-horizontal-izquierda, .seccion-1 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-1 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-2 .linea-horizontal-izquierda, .seccion-1 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-1 .linea-horizontal-derecha, .seccion-2 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-2 .linea-horizontal-derecha {
+  .seccion-1 .linea-horizontal, .seccion-2 .linea-horizontal, .seccion-1 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-1 .linea-horizontal-izquierda, .seccion-2 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-2 .linea-horizontal-izquierda, .seccion-1 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-1 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-2 .linea-horizontal-izquierda, .seccion-1 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-1 .linea-horizontal-derecha, .seccion-2 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-2 .linea-horizontal-derecha {
     margin-top: 10px;
     margin-bottom: 40px;
   }
@@ -385,7 +388,7 @@ body {
   .seccion-2 p {
     font-size: 28px;
   }
-  .seccion-2 .linea-horizontal, .seccion-2 .linea, .seccion-2 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-2 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-2 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-2 .linea-horizontal-derecha {
+  .seccion-2 .linea-horizontal, .seccion-2 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-2 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-2 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-2 .linea-horizontal-derecha {
     margin-top: 10px;
     margin-bottom: 40px;
   }
@@ -480,7 +483,7 @@ body {
   .seccion-1 p, .seccion-2 p {
     font-size: 14px;
   }
-  .seccion-1 .linea-horizontal, .seccion-2 .linea-horizontal, .seccion-1 .linea, .seccion-2 .linea, .seccion-1 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-1 .linea-horizontal-izquierda, .seccion-2 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-2 .linea-horizontal-izquierda, .seccion-1 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-1 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-2 .linea-horizontal-izquierda, .seccion-1 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-1 .linea-horizontal-derecha, .seccion-2 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-2 .linea-horizontal-derecha {
+  .seccion-1 .linea-horizontal, .seccion-2 .linea-horizontal, .seccion-1 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-1 .linea-horizontal-izquierda, .seccion-2 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-2 .linea-horizontal-izquierda, .seccion-1 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-1 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-2 .linea-horizontal-izquierda, .seccion-1 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-1 .linea-horizontal-derecha, .seccion-2 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-2 .linea-horizontal-derecha {
     margin-top: 10px;
     margin-bottom: 40px;
   }
@@ -503,7 +506,7 @@ body {
   .seccion-2 p {
     font-size: 14px;
   }
-  .seccion-2 .linea-horizontal, .seccion-2 .linea, .seccion-2 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-2 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-2 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-2 .linea-horizontal-derecha {
+  .seccion-2 .linea-horizontal, .seccion-2 .config-izquierda .linea-horizontal-izquierda, .config-izquierda .seccion-2 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-izquierda, .config-derecha .seccion-2 .linea-horizontal-izquierda, .seccion-2 .config-derecha .linea-horizontal-derecha, .config-derecha .seccion-2 .linea-horizontal-derecha {
     margin-top: 10px;
     margin-bottom: 40px;
   }

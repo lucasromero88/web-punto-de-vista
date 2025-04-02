@@ -6,7 +6,7 @@
     border-radius: 5px;
     text-align: center;
     h2 {
-        color: map-get($colors, black-col);
+        color: map-get($colors, negro-especial);
         margin-bottom: auto;
     }
     p {
@@ -16,6 +16,9 @@
     img {
         @include medidas(60px, 60px);
     }
+    .linea-horizontal {
+        background-color: map-get($colors, negro-especial);
+    }
 }
 
 .footer-contenedor {
@@ -24,6 +27,4 @@
     gap: 80px;
 }
 
-.linea {
-    @extend .linea-horizontal;
-}
+
